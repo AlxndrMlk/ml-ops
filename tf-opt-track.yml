@@ -1,0 +1,15 @@
+name: tf-opt-track
+channels:
+- defaults
+- conda-forge
+dependencies:
+- nb_conda
+- matplotlib
+- scikit-learn
+- pandas
+- pip
+- pip:
+  - tensorflow
+  - optuna
+  - omegaconf
+  - mlflow
